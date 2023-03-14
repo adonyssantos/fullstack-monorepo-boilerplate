@@ -1,0 +1,6 @@
+{
+  "name": "@root/server",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "yarn@3.4.1"
+}

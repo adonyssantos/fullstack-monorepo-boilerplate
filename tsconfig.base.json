@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "importsNotUsedAsValues": "error",
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", ".yarn", "**/build"]
+}

@@ -6,11 +6,27 @@
     "packages/*"
   ],
   "scripts": {
-    "commit": "cz"
+    "dev:mobile-app": "yarn lerna run dev --scope mobile-app",
+    "dev:next-app": "yarn lerna run dev --scope next-app"
   },
   "devDependencies": {
-    "commitizen": "4.3.0",
-    "lerna": "6.5.1"
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/node": "16.11.7",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "~8.36.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "7.31.11",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-unused-imports": "1.1.5",
+    "lerna": "6.5.1",
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.4",
+    "tslib": "^2.3.0",
+    "typescript": "^4.9.5"
   },
   "packageManager": "yarn@3.4.1"
 }

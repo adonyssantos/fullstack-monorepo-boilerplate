@@ -4,12 +4,9 @@
   "version": "0.0.0",
   "access": "restricted",
   "changelog": true,
-  "allowBranch": [
-    "main",
-    "dev"
-  ],
+  "allowBranch": ["main", "dev"],
   "npmClient": "yarn",
-  "scope": "packages/*",
+  "scope": "root",
   "createRelease": "github",
   "loglevel": "verbose",
   "conventionalCommits": true,

@@ -1,0 +1,16 @@
+{
+  "name": "@root/client",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/node": "18.15.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@types/react-native": "^0.71.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.3"
+  },
+  "packageManager": "yarn@3.4.1"
+}
