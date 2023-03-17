@@ -10690,9 +10690,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mobile-app@workspace:apps/mobile-app":
+"mobile@workspace:apps/mobile":
   version: 0.0.0-use.local
-  resolution: "mobile-app@workspace:apps/mobile-app"
+  resolution: "mobile@workspace:apps/mobile"
   dependencies:
     "@babel/core": ^7.20.0
     "@root/client": "workspace:*"
