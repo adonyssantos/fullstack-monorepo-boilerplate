@@ -2,5 +2,9 @@
   "name": "@root/server",
   "version": "0.0.1",
   "private": true,
+  "main": "src/index.ts",
+  "devDependencies": {
+    "next": "13.2.4"
+  },
   "packageManager": "yarn@3.4.1"
 }

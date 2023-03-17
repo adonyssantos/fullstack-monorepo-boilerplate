@@ -3219,9 +3219,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@root/server@workspace:packages/server":
+"@root/server@workspace:*, @root/server@workspace:packages/server":
   version: 0.0.0-use.local
   resolution: "@root/server@workspace:packages/server"
+  dependencies:
+    next: 13.2.4
   languageName: unknown
   linkType: soft
 
@@ -15143,6 +15145,7 @@ __metadata:
   resolution: "web@workspace:apps/web"
   dependencies:
     "@root/client": "workspace:*"
+    "@root/server": "workspace:*"
     "@types/node": 18.15.0
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
