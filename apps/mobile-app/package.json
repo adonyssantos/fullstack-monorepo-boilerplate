@@ -2,14 +2,14 @@
   "name": "mobile-app",
   "version": "1.0.0",
   "private": true,
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
-    "android": "expo start --android",
+    "android": "expo start --android ",
     "ios": "expo start --ios",
-    "start": "expo start",
-    "web": "expo start --web"
+    "start": "expo start"
   },
   "dependencies": {
+    "@root/client": "workspace:*",
     "expo": "~48.0.6",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
