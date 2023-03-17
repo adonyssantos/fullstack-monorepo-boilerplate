@@ -6,6 +6,9 @@
   "scripts": {
     "build": "vite build"
   },
+  "dependencies": {
+    "@universal-labs/primitives": "^1.4.15"
+  },
   "devDependencies": {
     "@types/node": "18.15.0",
     "@types/react": "18.0.28",

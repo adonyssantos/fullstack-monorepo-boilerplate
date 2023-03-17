@@ -1,4 +1,5 @@
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import { H1 } from '@universal-labs/primitives';
 
 interface IAppProviderProps {
   children: React.ReactNode;
@@ -7,7 +8,7 @@ interface IAppProviderProps {
 export function AppProvider({ children }: IAppProviderProps) {
   return (
     <View>
-      <Text>Hello Gentleman Community!!</Text>
+      <H1>Hello Gentleman Community!!</H1>
       {children}
     </View>
   );
