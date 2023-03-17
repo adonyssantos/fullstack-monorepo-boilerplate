@@ -1,1 +1,0 @@
-"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const e=require("react/jsx-runtime"),r=require("react-native");function i({children:t}){return e.jsxs(r.View,{children:[e.jsx(r.Text,{children:"Hello Gentleman Community!!"}),t]})}exports.AppProvider=i;
