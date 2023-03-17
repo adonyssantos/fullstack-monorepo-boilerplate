@@ -9,9 +9,9 @@
     "mobile": "yarn lerna run start --scope mobile",
     "mobile:android": "yarn lerna run android --scope mobile",
     "mobile:ios": "yarn lerna run ios --scope mobile",
-    "web": "yarn lerna run dev --scope next-app",
-    "web:build": "yarn lerna run build --scope next-app",
-    "web:preview": "yarn lerna run preview --scope next-app"
+    "web": "yarn lerna run dev --scope web",
+    "web:build": "yarn lerna run build --scope web",
+    "web:preview": "yarn lerna run preview --scope web"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
