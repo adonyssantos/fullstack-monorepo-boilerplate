@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "name": "✨ root",
+      "path": ".."
+    },
+    {
+      "name": "🚀 mobile",
+      "path": "../apps/mobile"
+    },
+    {
+      "name": "🚀 web",
+      "path": "../apps/web"
+    },
+    {
+      "name": "📦 @root/client",
+      "path": "../packages/client"
+    },
+    {
+      "name": "📦 @root/server",
+      "path": "../packages/server"
+    }
+  ],
+  "settings": {
+    "tailwindCSS.classAttributes": ["className", "tw", "variants"],
+    "tailwindCSS.experimental.configFile": {
+      "../apps/web/tailwind.config.js": ["../apps/**/*", "../packages/**/*"]
+    }
+  },
+  "extensions": {
+    "recommendations": ["jamesinaxx.sort-package"]
+  }
+}

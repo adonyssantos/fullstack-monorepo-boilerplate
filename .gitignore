@@ -144,6 +144,7 @@ dist
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
+!.vscode/workspaces**
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
