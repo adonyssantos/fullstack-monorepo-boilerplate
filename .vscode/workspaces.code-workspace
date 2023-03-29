@@ -25,6 +25,23 @@
     "tailwindCSS.classAttributes": ["className", "tw", "variants"],
     "tailwindCSS.experimental.configFile": {
       "../apps/web/tailwind.config.js": ["../apps/**/*", "../packages/**/*"]
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/.turbo": true,
+      "**/.swc": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true,
+      "**/.hg/store/**": true,
+      "**/dist/**": true
     }
   },
   "extensions": {
